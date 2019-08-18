@@ -11,6 +11,7 @@ cm.command('init <name>').action((name)=>{
 		  message:'项目叫什么名字?'
 	  }
 	]).then((answers)=>{
+		
         down(answers.projectname);
 	})
 })
